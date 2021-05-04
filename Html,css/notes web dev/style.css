@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    height: 800px;
+    border: 1px solid black;
+}
+.container1{
+    background-color:black;
+}
+
+nav {
+    background-color: black;
+    height: 60px;
+}
+
+nav span {
+    color: black;
+    font-size: 15pt;
+    font-family: 'Poppins';
+    margin-left: 5px;
+    line-height: 55px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 18px 20px;
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 15pt;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav label i {
+    color: white;
+    font-size: 22pt;
+    float: left;
+    margin: 15px 20px;
+    cursor: pointer;
+}
+
+nav #check1 {
+    display: none;
+   
+}
+
+nav label {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 500px;
+        height: 800px;
+        border: 1px solid blue;
+    }
+    nav ul {
+        width: 60%;
+        height: 40vh;
+        background-color: black;
+        text-align: center;
+        margin: 0;
+        position: fixed;
+        left: -100%;
+        transition: 0.3s;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 30px;
+    }
+    nav label {
+        visibility: visible;
+    }
+    
+    
+}
+
+#check1:checked~ul {
+    left: 0;
+}
+
+#check1:checked~label #menu {
+    display: none;
+}
+
+#check1:not(:checked)~label #cancel {
+    display: none;
+}
+.container2{
+width: 1200px;
+height: 740px;
+border: 1px solid red;
+
+}
+
+.container3{
+    width: 1200px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: red;
+}
+nav .display2{
+    background-color:blue;
+    height: 60px;
+}
+nav ul .display1 {
+    list-style: none;
+    margin: 18px 20px;
+    float: left;
+}
+
+nav ul li #display {
+    display: inline;
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 15pt;
+}
+footer{
+    width: 1200px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 690px;
+    border: 1px solid yellow;
+     align-items: center;
+     
+}
+#camera,#laptop,#speakers,#mobiles,#tablet{
+    width: 100px;
+    height: 100px;
+    margin: 7%;
+}
+

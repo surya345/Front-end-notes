@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div h1{
+    font-family: "Times New Roman", Times, serif;
+    color:rgb(184, 24, 24);
+}
+div p{
+    justify-content: center;
+}
+
+.container3{
+    width: 1200px;
+    height: 140px;
+    border: 1px solid red;
+}
+.box1{
+    width: 100px;
+    height: 20px;
+    margin-top: 2%;
+    margin-right: 4%;
+    
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.container{
+    margin-left: 5%;
+   width: 1200px;
+   height: 150px;
+   border: 1px solid rgb(207, 31, 31);
+}
+.container1{
+  
+    background-image: linear-gradient(to bottom right, rgb(189, 17, 17), rgba(235, 85, 26, 0.691));
+}
+#bannerimg{
+    width: 200px;
+    height: 100px;
+}
+.container2{
+
+   width: 1200px;
+   height: 46px;
+   background-color: rgb(214, 42, 42);
+   text-decoration: none;
+  
+}
+.container2 hover{
+   color: green;
+}
+footer{
+    width: 1200px;
+    height: 30px;
+    background-color:rgb(197, 18, 18);
+    color: white;
+    text-align: center;
+    
+    padding: 1%;
+}
+.img1,.img2,.img3,.img4,.img5,.img6
+        {
+           position: absolute;
+            display: flex;
+            top: 20%;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+        .img1{
+            left: 6%;
+        }
+        .img2{
+            left: 10%;
+        }
+        .img3{
+            left: 15%;
+        }
+        .img4{
+            left: 21%;
+        }
+        .img5{
+            left: 28%;
+        }
+        .img6{
+            left: 35%;
+        }
+        .img1>a,.img2>a,.img3>a,.img4>a,.img5>a,.img6>a
+        {
+            text-decoration: none;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .img1>a:hover,.img2>a:hover,.img3>a:hover,.img4>a:hover,.img5>a:hover,.img6>a:hover{
+            color: rgb(26, 202, 26);
+        }
+        .foodcontainer{
+            display: grid; 
+            
+         width: 1200px;
+         height: 300px;
+         border: 1px solid red;
+        }
+        .foodcontainer1{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr ; 
+            grid-gap: 1px;
+            margin: 1%;
+           padding: 10px;
+           width: 700px;
+           height: 200px;
+           /* border: 1px solid red; */
+        }
+        .foodcontainer1 #food1{
+           
+            grid-column-gap: 2px;
+           padding: 10px;
+           width: 200px;
+            height: 110px;
+        }
+        #food1{
+            
+        }
+         .box2{
+           display: flex;
+           flex-direction: column;
+           align-items: flex-end;
+            justify-content: center;
+            width: 400px;
+            height: 100px;
+            border: 1px solid red; 
+           margin-left: 60%;
+           
+        }
+        #menu1{
+            width: 100px;
+            height: 3px;
+            border: 1px solid red;
+        } 
+       
